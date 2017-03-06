@@ -8,10 +8,8 @@ ini_set("memory_limit", "100M");
 require_once("function/function.php");
 require_once("function/fetchValue.php");
 require_once("class/Path.php");
+require_once("account.php");
 
-
-$email = "your_email@email.com";
-$password = "your_password";
 
 
 $path = new Path($email,$password);
