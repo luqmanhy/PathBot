@@ -5,9 +5,9 @@ set_time_limit(0);
 ini_set('max_execution_time', 0);
 ini_set("memory_limit", "100M");
 
-require_once("function.php");
-require_once("fetchValue.php");
-require_once("Path.php");
+require_once("function/function.php");
+require_once("function/fetchValue.php");
+require_once("class/Path.php");
 
 
 $email = "your_email@email.com";
