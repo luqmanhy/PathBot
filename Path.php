@@ -74,7 +74,7 @@ class Path{
 
 	public function getMyFriendList(){
 
-		$url = "https://www.path.com/a/friends?locale=en&meId=536d6d572d7a7970052e1d11".$this->meID."";
+		$url = "https://www.path.com/a/friends?locale=en&meId=".$this->meID."";
 		$new = false;
 		$store_cook = dirname(__FILE__) . '/cookies/'.md5($this->email).'.txt';
 
