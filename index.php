@@ -32,6 +32,10 @@ $path->Bot_Send_Reaction("love");
 
 
 ///////// To Friend Profile
+
+// Get Friend List :
+// $path->getMyFriendList();
+
 //Send Reaction : 
 //   - love
 //   - happy
