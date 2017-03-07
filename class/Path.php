@@ -116,7 +116,7 @@ class Path{
 			echo "Get List Moment : OK<br>\n";
 			return $momentList;
 		}else{
-			echo "Get List Moment : OK<br>\n";			
+			echo "Get List Moment : Failed<br>\n";			
 			return false;
 		}
 	}
@@ -131,7 +131,7 @@ class Path{
 			echo "Get List Moment : OK<br>\n";
 			return $momentList;
 		}else{
-			echo "Get List Moment : OK<br>\n";			
+			echo "Get List Moment : Failed<br>\n";			
 			return false;
 		}
 
